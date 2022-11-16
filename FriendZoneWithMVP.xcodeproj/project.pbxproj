@@ -9,13 +9,29 @@
 /* Begin PBXBuildFile section */
 		5C92A1E12922077F008429BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C92A1E02922077F008429BB /* AppDelegate.swift */; };
 		5C92A1E32922077F008429BB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C92A1E22922077F008429BB /* SceneDelegate.swift */; };
-		5C92A1E52922077F008429BB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C92A1E42922077F008429BB /* ViewController.swift */; };
 		5C92A1E82922077F008429BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C92A1E62922077F008429BB /* Main.storyboard */; };
 		5C92A1EA29220782008429BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C92A1E929220782008429BB /* Assets.xcassets */; };
 		5C92A1ED29220782008429BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C92A1EB29220782008429BB /* LaunchScreen.storyboard */; };
 		5C92A1F829220782008429BB /* FriendZoneWithMVPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C92A1F729220782008429BB /* FriendZoneWithMVPTests.swift */; };
 		5C92A20229220782008429BB /* FriendZoneWithMVPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C92A20129220782008429BB /* FriendZoneWithMVPUITests.swift */; };
 		5C92A20429220782008429BB /* FriendZoneWithMVPUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C92A20329220782008429BB /* FriendZoneWithMVPUITestsLaunchTests.swift */; };
+		5C92A21129220883008429BB /* RouterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C92A21029220883008429BB /* RouterProtocol.swift */; };
+		5C92A21329220977008429BB /* BuilderProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C92A21229220977008429BB /* BuilderProtocol.swift */; };
+		5C92A21529220B11008429BB /* MainRouterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C92A21429220B11008429BB /* MainRouterProtocol.swift */; };
+		5C92A21D29227D96008429BB /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C92A21C29227D96008429BB /* Router.swift */; };
+		5C92A21F29227E68008429BB /* Builder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C92A21E29227E68008429BB /* Builder.swift */; };
+		5C92A22129227EC7008429BB /* MainPresenterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C92A22029227EC7008429BB /* MainPresenterProtocol.swift */; };
+		5C92A22329227F02008429BB /* Friend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C92A22229227F02008429BB /* Friend.swift */; };
+		5C92A22529227FB6008429BB /* MainViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C92A22429227FB6008429BB /* MainViewProtocol.swift */; };
+		5C92A22729228035008429BB /* ListOfFriendsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C92A22629228035008429BB /* ListOfFriendsVC.swift */; };
+		5C92A22A292284FA008429BB /* MainPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C92A229292284FA008429BB /* MainPresenter.swift */; };
+		5C92A22D29228BD4008429BB /* DetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C92A22C29228BD4008429BB /* DetailsVC.swift */; };
+		5C92A22F29228C5D008429BB /* DetailPresenterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C92A22E29228C5D008429BB /* DetailPresenterProtocol.swift */; };
+		5C92A23129229024008429BB /* DetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C92A23029229024008429BB /* DetailPresenter.swift */; };
+		5C92A2332922AA7C008429BB /* DetailViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C92A2322922AA7C008429BB /* DetailViewProtocol.swift */; };
+		5C92A2362922AE10008429BB /* NameCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C92A2352922AE10008429BB /* NameCell.swift */; };
+		5C92A2382922AE33008429BB /* TimeZoneCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C92A2372922AE32008429BB /* TimeZoneCell.swift */; };
+		5CA42A002924A8E100CDBB35 /* PersistenceManagerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA429FF2924A8E100CDBB35 /* PersistenceManagerProtocol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +55,6 @@
 		5C92A1DD2922077F008429BB /* FriendZoneWithMVP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FriendZoneWithMVP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C92A1E02922077F008429BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5C92A1E22922077F008429BB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5C92A1E42922077F008429BB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5C92A1E72922077F008429BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5C92A1E929220782008429BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5C92A1EC29220782008429BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +64,23 @@
 		5C92A1FD29220782008429BB /* FriendZoneWithMVPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FriendZoneWithMVPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C92A20129220782008429BB /* FriendZoneWithMVPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendZoneWithMVPUITests.swift; sourceTree = "<group>"; };
 		5C92A20329220782008429BB /* FriendZoneWithMVPUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendZoneWithMVPUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5C92A21029220883008429BB /* RouterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouterProtocol.swift; sourceTree = "<group>"; };
+		5C92A21229220977008429BB /* BuilderProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuilderProtocol.swift; sourceTree = "<group>"; };
+		5C92A21429220B11008429BB /* MainRouterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainRouterProtocol.swift; sourceTree = "<group>"; };
+		5C92A21C29227D96008429BB /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		5C92A21E29227E68008429BB /* Builder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Builder.swift; sourceTree = "<group>"; };
+		5C92A22029227EC7008429BB /* MainPresenterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPresenterProtocol.swift; sourceTree = "<group>"; };
+		5C92A22229227F02008429BB /* Friend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Friend.swift; sourceTree = "<group>"; };
+		5C92A22429227FB6008429BB /* MainViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewProtocol.swift; sourceTree = "<group>"; };
+		5C92A22629228035008429BB /* ListOfFriendsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListOfFriendsVC.swift; sourceTree = "<group>"; };
+		5C92A229292284FA008429BB /* MainPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPresenter.swift; sourceTree = "<group>"; };
+		5C92A22C29228BD4008429BB /* DetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsVC.swift; sourceTree = "<group>"; };
+		5C92A22E29228C5D008429BB /* DetailPresenterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailPresenterProtocol.swift; sourceTree = "<group>"; };
+		5C92A23029229024008429BB /* DetailPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailPresenter.swift; sourceTree = "<group>"; };
+		5C92A2322922AA7C008429BB /* DetailViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewProtocol.swift; sourceTree = "<group>"; };
+		5C92A2352922AE10008429BB /* NameCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameCell.swift; sourceTree = "<group>"; };
+		5C92A2372922AE32008429BB /* TimeZoneCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeZoneCell.swift; sourceTree = "<group>"; };
+		5CA429FF2924A8E100CDBB35 /* PersistenceManagerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceManagerProtocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,8 +133,13 @@
 			children = (
 				5C92A1E02922077F008429BB /* AppDelegate.swift */,
 				5C92A1E22922077F008429BB /* SceneDelegate.swift */,
-				5C92A1E42922077F008429BB /* ViewController.swift */,
+				5C92A21629220B43008429BB /* Router */,
+				5C92A2282922829E008429BB /* Model */,
+				5C92A22B29228519008429BB /* Presenter */,
+				5C92A21729220B52008429BB /* Builder */,
 				5C92A1E62922077F008429BB /* Main.storyboard */,
+				5CA42A012924A9CC00CDBB35 /* PersistenceManagerProtocol */,
+				5C92A2342922AB30008429BB /* Views */,
 				5C92A1E929220782008429BB /* Assets.xcassets */,
 				5C92A1EB29220782008429BB /* LaunchScreen.storyboard */,
 				5C92A1EE29220782008429BB /* Info.plist */,
@@ -125,6 +162,65 @@
 				5C92A20329220782008429BB /* FriendZoneWithMVPUITestsLaunchTests.swift */,
 			);
 			path = FriendZoneWithMVPUITests;
+			sourceTree = "<group>";
+		};
+		5C92A21629220B43008429BB /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				5C92A21029220883008429BB /* RouterProtocol.swift */,
+				5C92A21C29227D96008429BB /* Router.swift */,
+				5C92A21429220B11008429BB /* MainRouterProtocol.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		5C92A21729220B52008429BB /* Builder */ = {
+			isa = PBXGroup;
+			children = (
+				5C92A21229220977008429BB /* BuilderProtocol.swift */,
+				5C92A21E29227E68008429BB /* Builder.swift */,
+			);
+			path = Builder;
+			sourceTree = "<group>";
+		};
+		5C92A2282922829E008429BB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5C92A22229227F02008429BB /* Friend.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5C92A22B29228519008429BB /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				5C92A22029227EC7008429BB /* MainPresenterProtocol.swift */,
+				5C92A229292284FA008429BB /* MainPresenter.swift */,
+				5C92A22E29228C5D008429BB /* DetailPresenterProtocol.swift */,
+				5C92A23029229024008429BB /* DetailPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		5C92A2342922AB30008429BB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5C92A2322922AA7C008429BB /* DetailViewProtocol.swift */,
+				5C92A22629228035008429BB /* ListOfFriendsVC.swift */,
+				5C92A22429227FB6008429BB /* MainViewProtocol.swift */,
+				5C92A22C29228BD4008429BB /* DetailsVC.swift */,
+				5C92A2352922AE10008429BB /* NameCell.swift */,
+				5C92A2372922AE32008429BB /* TimeZoneCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5CA42A012924A9CC00CDBB35 /* PersistenceManagerProtocol */ = {
+			isa = PBXGroup;
+			children = (
+				5CA429FF2924A8E100CDBB35 /* PersistenceManagerProtocol.swift */,
+			);
+			path = PersistenceManagerProtocol;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,9 +354,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5C92A1E52922077F008429BB /* ViewController.swift in Sources */,
+				5C92A22729228035008429BB /* ListOfFriendsVC.swift in Sources */,
+				5C92A21329220977008429BB /* BuilderProtocol.swift in Sources */,
 				5C92A1E12922077F008429BB /* AppDelegate.swift in Sources */,
+				5C92A2332922AA7C008429BB /* DetailViewProtocol.swift in Sources */,
+				5C92A21F29227E68008429BB /* Builder.swift in Sources */,
+				5C92A21129220883008429BB /* RouterProtocol.swift in Sources */,
 				5C92A1E32922077F008429BB /* SceneDelegate.swift in Sources */,
+				5C92A22129227EC7008429BB /* MainPresenterProtocol.swift in Sources */,
+				5C92A22A292284FA008429BB /* MainPresenter.swift in Sources */,
+				5C92A23129229024008429BB /* DetailPresenter.swift in Sources */,
+				5C92A22329227F02008429BB /* Friend.swift in Sources */,
+				5C92A21D29227D96008429BB /* Router.swift in Sources */,
+				5C92A2382922AE33008429BB /* TimeZoneCell.swift in Sources */,
+				5C92A21529220B11008429BB /* MainRouterProtocol.swift in Sources */,
+				5C92A22D29228BD4008429BB /* DetailsVC.swift in Sources */,
+				5C92A2362922AE10008429BB /* NameCell.swift in Sources */,
+				5C92A22529227FB6008429BB /* MainViewProtocol.swift in Sources */,
+				5CA42A002924A8E100CDBB35 /* PersistenceManagerProtocol.swift in Sources */,
+				5C92A22F29228C5D008429BB /* DetailPresenterProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -445,6 +557,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.7;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -473,6 +586,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.7;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
